@@ -7,10 +7,10 @@ import Technologies from '../Pages/Technologies.vue'
 
 
 export const routes = [
-    { path: '/', component: Home },
-    { path: '/destination', component: Destination },
-    { path: '/crew', component: Crew },
-    { path: '/technologies', component: Technologies },
+    { path: '/space-travel', component: Home },
+    { path: '/space-travel/destination', component: Destination },
+    { path: '/space-travel/crew', component: Crew },
+    { path: '/space-travel/technologies', component: Technologies },
 ];
 
 const router = createRouter({

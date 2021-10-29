@@ -8,10 +8,10 @@
         <nav id="nav-bar">
             <a href="#" class="sidenav-close" id="close-btn"><img src="../assets/images/shared/icon-close.svg" alt="Close menu"></a>
             <ul>
-                <li><router-link :to="'/'"><span>00</span>Home</router-link></li>
-                <li><router-link :to="'/destination'"><span>01</span>Destination</router-link></li>
-                <li><router-link :to="'/crew'"><span>02</span>Crew</router-link></li>
-                <li><router-link :to="'/technologies'"><span>03</span>Technologies</router-link></li>
+                <li><router-link :to="'/space-travel'"><span>00</span>Home</router-link></li>
+                <li><router-link :to="'/space-travel/destination'"><span>01</span>Destination</router-link></li>
+                <li><router-link :to="'/space-travel/crew'"><span>02</span>Crew</router-link></li>
+                <li><router-link :to="'/space-travel/technologies'"><span>03</span>Technologies</router-link></li>
             </ul>
         </nav>
     </header>
