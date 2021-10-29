@@ -1,11 +1,9 @@
 <template>
   <div class="mainBody">
     <NavBar />
-    <router-view v-slot="{ Component }">
-        <transition name="fade" mode="out-in">
-            <component :is="Component" />
-        </transition>
-    </router-view>
+      <transition name="scale" mode="out-in">
+        <router-view />
+      </transition>
   </div>
 </template>
 
