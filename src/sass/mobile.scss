@@ -1,0 +1,210 @@
+@media screen and (max-width: 685px) {
+    .main {
+        padding-top: 96px;
+    }
+    body, #tech-description,  #crew-bio {
+        font-size: 15px;
+        line-height: 25px;    
+    }
+    .homeBody {
+        padding: 48px 0 48px 0;
+    }
+    .destinationBody {
+        padding: 24px 0 58px 0;
+    }
+    .crewBody {
+        padding: 24px 0 104px 0;
+    }
+    .techBody {
+        padding: 24px 0 81px 0;
+    }
+    h1 {
+        font-size: 80px;
+        line-height: 100px; 
+    }
+    h2 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    h5 {
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+    .subhead_main {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    header {
+        top: 0;
+        height: auto;
+        width: 100%;
+        padding: 24px 0 0 0;
+    }
+    .main {
+        padding-top: 64px;
+    }
+    .home h1 {
+        padding: 16px 0
+    }
+    .present {
+        width: 327px;
+    }
+    .explore {
+        width: 150px;
+        height: 150px;
+        margin-top: 81px;
+        line-height: 150px;
+    }
+    .explore:hover {
+        -webkit-box-shadow: 0px 0px 4px 40px rgba(255,255,255,0.1); 
+        box-shadow: 0px 0px 4px 40px rgba(255,255,255,0.1);
+    }
+    .explore-btn {
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 1.25px;
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+        margin-left: 24px;
+    }
+    nav:not(.destination-nav) {
+        display: block;
+        position: fixed;
+        overflow: hidden;
+        height: 0;
+        width: 254px;
+        top: 0;
+        right: 0;
+        transition: height 0.30s ease-in-out;
+    }
+    nav:not(.destination-nav) ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 46px;
+    }
+    nav:not(.destination-nav) ul li {
+        width: 100%;
+        margin: 0 32px;
+    }
+    nav:not(.destination-nav) ul li a {
+        padding: 16px 0;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .destination-nav ul li a, .nav-text {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3px;
+    }
+    nav ul li span {
+        display: inline-block;
+    }
+    nav:not(.destination-nav) ul li a::after, nav:not(.destination-nav) ul li .router-link-active.router-link-exact-active::after {
+        bottom: 25%;
+        right: 33px;
+        height: 31px;
+        width: 3px; 
+    }
+    .sidenav-trigger, .sidenav-close {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .sidenav-trigger {
+        margin-right: 33px;
+    }
+    .sidenav-close {
+        margin: 34px 26px 0 0;
+    }
+    .destination {
+        padding-top: 32px;
+    }
+    .destination-nav {
+        margin-bottom: 20px;
+        height: 28px;
+    }
+    .destination-img {
+        margin: 0 0 26px 0;
+        width: 170px;
+        height: 170px;
+    }
+    .destination-infos {
+        width: 327px;
+    }
+    .destination-technical {
+        flex-direction: column;
+        margin-top: 32px;
+        padding-top: 32px
+    }
+    .distance {
+        padding: 0 0 32px 0;
+    }
+    .crew-img {
+        bottom: 0;
+        top: 139px;
+        height: 223px; 
+        border-bottom: 1px solid #383B4B;
+    }
+    .crew-infos {
+        display: flex;
+        flex-direction: column;
+        padding-top: 287px;
+    }
+    .crew .nav-controls {
+        margin: 0 0 32px 0;
+        order: -1;
+        height: 10px;
+    }
+    #crew-bio, #tech-description {
+        width: 327px;
+    }
+    .tech-img {
+        top: 139px;
+        height: 170px;
+    }
+    .tech-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .tech .nav-controls {
+        margin: 236px 0 26px 0;
+    }
+    .tech .dot {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    #tech-title {
+        padding: 9px 0 16px 0;
+    }
+}
+@media screen and (max-width: 375px) {
+    .homeBody {
+        background: url('../images/home/background-home-mobile.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+    .destinationBody {
+        background: url('../images/destination/background-destination-mobile.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+    .crewBody {
+        background: url('../images/crew/background-crew-mobile.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+    .techBody {
+        background: url('../images/technology/background-technology-mobile.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+}

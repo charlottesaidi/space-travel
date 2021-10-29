@@ -1,0 +1,165 @@
+@import './reset.scss';
+@import './preset.scss';
+
+.home h1 {
+    padding: 24px 0
+}
+.explore {
+    background: #ffffff;
+    width: 274px;
+    height: 274px;
+    line-height: 274px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s;
+}
+.explore-btn {
+    border: none;
+    background: transparent;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.explore:hover {
+    -webkit-box-shadow: 0px 0px 4px 80px rgba(255,255,255,0.1); 
+    box-shadow: 0px 0px 4px 80px rgba(255,255,255,0.1);
+}
+.present {
+    width: 450px;
+}
+.home.container, .destination{
+    display: flex;
+    justify-content: space-between;
+}
+.home.container {
+    align-items: flex-end;
+}
+.page-numbers {
+    font-weight: 700;
+    color: rgba(255, 255, 255, .25);
+    margin-right: 24px;
+}
+.destination {
+    align-items: center;
+    padding-top: 64px;
+}
+.destination-nav {
+    background: transparent;
+    backdrop-filter: blur(0);
+    height: 34px;
+    width: 100%;
+    margin-bottom: 37px;
+}
+.destination-nav ul {
+    margin: 0;
+}
+.destination-nav ul li {
+    margin-right: 35px;
+    margin-left: 0;
+}
+.destination-nav ul li a::after, .destination-nav ul li a.active::after {
+    bottom: -12px;
+}
+.destination-img {
+    margin: 33px 20px 0 0;
+}
+.destination-infos {
+    width: 445px;
+}
+.destination-technical {
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+    padding-top: 28px;
+    border-top: solid 1px #383B4B;
+}
+.travel {
+    margin-left: 5.487vw;
+}
+.destination .subhead2 {
+    padding-bottom: 12px;
+}
+.nav-controls {
+    display: flex;
+    align-items: center;
+}
+.tech .nav-controls {
+    flex-direction: column;
+    margin: 0 80px 0 0;
+}
+.crew .nav-controls {
+    margin: 8.334vw 0 0 0;
+}
+.crew .nav-controls li {
+    padding-right: 24px
+}
+.dot {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.crew .dot {
+    width: 15px;
+    height: 15px;
+    background: rgba(255, 255, 255, .17);
+}
+.tech .dot {
+    width: 5.56vw;
+    height: 5.56vw;
+    line-height: 5.56vw;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4vw;
+}
+.tech li:not(:first-child) {
+    margin-top: 32px;
+}
+.dot.active {
+    background-color: rgba(255, 255, 255, 1);
+    color: #0B0D17;
+}
+.crewBody, .techBody {
+    position: relative
+}
+.crew-infos {
+    padding-top: 10.702vw;
+}
+#crew-bio {
+    width: 40%;
+}
+#crew-name {
+    padding: 1.0424vw 0 1.877vw 0;
+}
+.crew-img {
+    position: absolute;
+    right: 9.5%;
+    bottom: 0; 
+}
+#crew-bio, #tech-description {
+    font-size: 1.25vw;
+    line-height: 2.342vw;
+}
+.tech-element {
+    display: flex;
+    padding-top: 9.52vw;
+}
+#tech-title {
+    padding: 0.77vw 0 1.19vw 0;
+}
+#tech-description {
+    width: 32.64vw;
+}
+.tech-img {
+    position: absolute;
+    width: 35.76%;
+    top: 30%;
+    right: 0; 
+}
+.tech-img img {
+    width: 100%;
+}
+@import './tablet.scss';
+@import './mobile.scss';

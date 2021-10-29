@@ -1,0 +1,313 @@
+/* FONTS */
+/* vietnamese */
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/barlowcondensed/v5/HTx3L3I-JCGChYJ8VI-L6OO_au7B6x7T2kn3.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/barlowcondensed/v5/HTx3L3I-JCGChYJ8VI-L6OO_au7B6x_T2kn3.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/barlowcondensed/v5/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/bellefair/v6/kJExBuYY6AAuhiXUxG1N-vo3lOc.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/bellefair/v6/kJExBuYY6AAuhiXUxG1N9vo3lOc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/bellefair/v6/kJExBuYY6AAuhiXUxG1N-Po3.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/barlow/v5/7cHpv4kjgoGqM7E_A8s52Hs.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/barlow/v5/7cHpv4kjgoGqM7E_Ass52Hs.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/barlow/v5/7cHpv4kjgoGqM7E_DMs5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* TYPO */
+body {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+nav, nav a, .nav-text {
+    font-family: 'Barlow condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.destination-link, .nav-text {
+    color: #D0D6F9
+}
+.destination-link:hover, .destination-link.active {
+    color: #ffffff
+}
+h1 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 172px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h2 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.9vw;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h4 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+h5 {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9vw;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.subhead_main {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+}
+.subhead1 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.subhead2 {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+.explore-btn {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+}
+/* LAYOUTS */
+.mainBody {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main {
+    padding-top: calc(96px + 40px);
+}
+.homeBody {
+    background: url('../images/home/background-home-desktop.jpg') no-repeat center fixed;
+    background-size: cover;
+    padding: 251px 0 131px 0;
+}
+.destinationBody {
+    background: url('../images/destination/background-destination-desktop.jpg') no-repeat center fixed;
+    background-size: cover;
+    padding: 76px 0 112px 0;
+}
+.crewBody {
+    background: url('../images/crew/background-crew-desktop.jpg') no-repeat center fixed;
+    background-size: cover;
+    padding: 76px 0 94px 0;
+}
+.techBody {
+    background: url('../images/technology/background-technology-desktop.jpg') no-repeat center fixed;
+    background-size: cover;
+    padding: 76px 0 214px 0;
+}
+.hidden {
+    display: none;
+}
+/* HEADER */
+header {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 96%;
+    z-index: 99;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 48px;
+    height: 48px;
+}
+.logo img {
+    width: 100%
+}
+.line {
+    width: 34%;
+    height: 1px;
+    background: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin: 0 -30px 0 64px;
+    width: 473px;
+    z-index: 1;
+}
+nav {
+    width: 830px;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81px);
+    display: flex;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+nav ul:not(.destination-nav ul) {
+    width: 65.30%;
+}
+nav ul li span {
+    display: inline-block;
+    margin-right: 11px;
+    font-weight: 700;
+}
+nav ul li a {
+    position: relative;
+    padding: 0;
+}
+nav ul li a:hover {
+    background: transparent;
+}
+nav ul li a::after, nav ul li .router-link-active.router-link-exact-active::after, nav ul li a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -38px;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 3px;
+    background-color: #ffffff;
+    opacity: 0;
+    -webkit-transition: opacity 500ms, -webkit-transform 500ms;
+    transition: opacity 500ms, -webkit-transform 500ms;
+    -o-transition: opacity 500ms, transform 500ms;
+    transition: opacity 500ms, transform 500ms;
+    transition: opacity 500ms, transform 500ms, -webkit-transform 500ms;
+}
+nav ul li a:hover::after, nav ul li .router-link-active.router-link-exact-active::after, nav ul li a.active::after {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0.2em, 0);
+    transform: translate3d(0, 0.2em, 0);
+}
+nav ul li a::after, nav ul li .router-link-active.router-link-exact-active::after, nav ul li a.active::after {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+}
+nav ul li a:hover::after, nav ul li .router-link-active.router-link-exact-active::after, nav ul li a.active::after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.sidenav-trigger, .sidenav-close {
+    display: none;
+}
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 77%;
+    }
+}

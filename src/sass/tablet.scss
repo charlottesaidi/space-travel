@@ -1,0 +1,193 @@
+@media screen and (max-width: 1200px) {
+    nav ul li span {
+        display: none;
+    }
+    .crewBody {
+        padding: 40px 0 572px 0;
+    }
+    #crew-bio {
+        font-size: 16px;
+        line-height: 28px;    
+    }
+    .crew .nav-controls {
+        margin: 40px 0 0 0;
+        justify-content: center;
+    }
+    .crew .nav-controls li {
+        padding-right: 16px
+    }
+    .crew .dot {
+        width: 10px;
+        height: 10px
+    }
+    .crew-infos {
+        padding-top: 60px;
+        text-align: center;
+    }
+    #crew-bio {
+        width: 458px;
+        margin: 0 auto;
+    }
+    #crew-name {
+        padding: 8px 0 16px 0;
+    }
+    .crew-img {
+        right: 0;
+        bottom: -40px;
+        height: 572px; 
+        width: 100%;
+    }
+    .crew-img img {
+        display: block;
+        height: 100%;
+        width: auto;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 890px) {
+    .homeBody {
+        padding: 106px 0 90px 0;
+    }
+    .destinationBody {
+        padding: 40px 0 62px 0;
+    }
+    .techBody {
+        padding: 40px 0 97px 0;
+    }
+    .main {
+        padding-top: 96px;
+    }
+    .line {
+        display: none;
+    }
+    body, #tech-description {
+        font-size: 16px;
+        line-height: 28px;    
+    }
+    h1 {
+        line-height: 150px; 
+    }
+    h2 {
+        font-size: 80px;
+        line-height: 92px;
+    }
+    h3 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h5 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .subhead_main {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    header {
+        top: 0
+    }
+    nav {
+        width: 450px;
+    }
+    nav ul:not(.destination-nav ul) {
+        width: auto;
+    }
+    nav ul li {
+        margin: 0 18px;
+    }
+    header nav ul li a {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .page-numbers {
+        margin-right: 16px;
+    }
+    .destination-nav ul {
+        margin: 0 auto;
+    }
+    .destination-nav ul li {
+        margin: 0 18px;
+    }
+    .home.container, .destination, .tech-element {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .explore {
+        width: 242px;
+        height: 242px;
+        margin-top: 156px;
+        line-height: 242px;
+    }
+    .destination-infos {
+        width: 573px;
+    }
+    .destination-img {
+        width: 300px;
+        margin: 60px 0 53px 0;
+    }
+    .destination-img img {
+        width: 100%;
+    }
+    .destination-technical {
+        justify-content: space-around;
+        margin-top: 49px;
+    }
+    .travel {
+        margin-left: 0;
+    }
+    .nav-controls {
+        justify-content: center;
+    }
+    #tech-description {
+        width: 458px;
+    }
+    .tech-element {
+        padding-top: 0;
+    }
+    #tech-title {
+        padding: 16px 0 16px 0;
+    }
+    .tech .nav-controls {
+        flex-direction: row;
+        justify-content: center;
+        margin: 426px 0 44px 0;
+    }
+    .tech .dot {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 24px;
+    }
+    .tech li:not(:first-child) {
+        margin-top: 0;
+        padding-left: 16px
+    }
+    .tech-img {
+        top: 220px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .homeBody {
+        background: url('../images/home/background-home-tablet.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+    .destinationBody {
+        background: url('../images/destination/background-destination-tablet.jpg') no-repeat center; 
+        background-size: cover;
+    }
+    .crewBody {
+        background: url('../images/crew/background-crew-tablet.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+    .techBody {
+        background: url('../images/technology/background-technology-tablet.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+}
