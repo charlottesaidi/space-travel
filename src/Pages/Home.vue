@@ -24,7 +24,7 @@ export default {
     name: 'Home',
     methods: {
         goToPage() {
-            this.$router.push('/destination')
+            this.$router.push('/space-travel/destination')
         }
     },
 }
