@@ -180,6 +180,9 @@ h5 {
     color: #0B0D17;
 }
 /* LAYOUTS */
+body {
+    background: #050a1a;
+}
 .main {
     padding-top: calc(96px + 40px);
     max-width: 1440px;
@@ -302,6 +305,15 @@ nav ul li a:hover::after, nav ul li .router-link-active.router-link-exact-active
 }
 .sidenav-trigger, .sidenav-close {
     display: none;
+}
+// MISC
+.scale-enter-active,
+.scale-leave-active {
+    transition: opacity .5s
+}
+.scale-enter-from,
+.scale-leave-to {
+    opacity: 0
 }
 @media only screen and (min-width: 993px) {
     .container {
