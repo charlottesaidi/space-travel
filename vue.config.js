@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/planets-fact/',
+    publicPath: '/space-travel/',
     devServer: {
         host: 'localhost'
     }
