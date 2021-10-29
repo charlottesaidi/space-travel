@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 #### Desktop  
-![Desktop version](./desktop.png)
+![Desktop version](./desktop-preview.png)
 
 #### Tablet  
-![Tablet version](./tablet.png)
+![Tablet version](./tablet-preview.png)
 
 #### Mobile  
-![Mobile version](./mobile.png)
+![Mobile version](./mobile-preview.png)
 
 ### Links
 
