@@ -1,3 +1,8 @@
+@media screen and (max-width: 1300px) {
+    .tech-img img {
+        width: 400px;
+    }
+}
 @media screen and (max-width: 1200px) {
     nav ul li span {
         display: none;
@@ -143,6 +148,9 @@
     }
     .nav-controls {
         justify-content: center;
+    }
+    #tech-title {
+        width: auto;
     }
     #tech-description {
         width: 458px;

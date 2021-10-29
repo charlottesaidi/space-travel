@@ -104,15 +104,15 @@
     background: rgba(255, 255, 255, .17);
 }
 .tech .dot {
-    width: 5.56vw;
-    height: 5.56vw;
-    line-height: 5.56vw;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, .25);
     font-family: 'Bellefair';
     font-style: normal;
     font-weight: normal;
-    font-size: 2.4vw;
+    font-size: 34px;
 }
 .tech li:not(:first-child) {
     margin-top: 32px;
@@ -138,10 +138,6 @@
     right: 9.5%;
     bottom: 0; 
 }
-#crew-bio, #tech-description {
-    font-size: 1.25vw;
-    line-height: 2.342vw;
-}
 .tech-element {
     display: flex;
     padding-top: 9.52vw;
@@ -152,14 +148,13 @@
 #tech-description {
     width: 32.64vw;
 }
+#tech-title {
+    width: 41.07vw;
+}
 .tech-img {
     position: absolute;
-    width: 35.76%;
     top: 30%;
     right: 0; 
-}
-.tech-img img {
-    width: 100%;
 }
 @import './tablet.scss';
 @import './mobile.scss';

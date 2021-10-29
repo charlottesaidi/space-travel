@@ -14,6 +14,7 @@
                         <h3 id="tech-title">{{name}}</h3>
                         <p id="tech-description">{{description}}</p>
                     </div>
+                <div class="helper"></div>
                 </div>
                 <div class="tech-img">
                     <img :src="require(`../assets${img}`)" alt="Crew member">
