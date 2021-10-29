@@ -13,8 +13,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,15 +25,13 @@ Users should be able to:
 
 ### Screenshot
 #### Desktop  
-![](./desktop.jpg)
+![Desktop version](./desktop.png)
 
 #### Tablet  
-![](./tablet.jpg)
+![Tablet version](./tablet.png)
 
 #### Mobile  
-![](./mobile.jpg)
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Mobile version](./mobile.png)
 
 ### Links
 
