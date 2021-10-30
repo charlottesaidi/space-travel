@@ -6,7 +6,7 @@
                 <div class="tech-element">
                     <ul class="tech nav-controls">
                         <li v-for="(item, index) in tech" v-bind:key="item.name">
-                            <span class="dot" :id="item.name" @click="next">{{index+1}}</span>
+                            <button class="dot" :id="item.name" @click="next">{{index+1}}</button>
                         </li>
                     </ul>
                     <div class="descriptions">

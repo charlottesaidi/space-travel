@@ -97,13 +97,17 @@
     display: inline-block;
     cursor: pointer;
     border-radius: 50%;
+    transition: all .3s;
 }
 .crew .dot {
+    border: none;
     width: 15px;
     height: 15px;
     background: rgba(255, 255, 255, .17);
 }
 .tech .dot {
+    background: transparent;
+    color: #d0d6f9;
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -117,7 +121,7 @@
 .tech li:not(:first-child) {
     margin-top: 32px;
 }
-.dot.active {
+.dot.active, .dot:hover {
     background-color: rgba(255, 255, 255, 1);
     color: #0B0D17;
 }

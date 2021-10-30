@@ -9,7 +9,7 @@
                     <p id="crew-bio">{{bio}}</p>
                     <ul class="nav-controls">
                         <li v-for="member in crew" v-bind:key="member.name">
-                            <span class="dot" :id="member.name" @click="next"></span>
+                            <button class="dot" :id="member.name" @click="next"></button>
                         </li>
                     </ul>
                 </div>
